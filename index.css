@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* base styling for the page */
+ 
+.header {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.header li {
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    font-size: 22px;
+    position: relative;
+    top: 50px;    
+}
+
+.dog-banner {
+    margin-top: 0;
+    max-width: 75%;
+}
+
+.resultsFeedback {
+    color: #7FFFD4;
+}
+
+body {
+    background-color: #456dc7;
+    font-size: 24px;
+    font-weight: 400;
+    color: #dadfe1;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.startQuiz {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+button {
+    background-color: #FFEA05;
+    padding: 15px;
+    color: #0F2BFF;
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+h1, p{
+    text-align: center;
+    font-size: 24px;
+}
+
+.correct {
+    color: yellow;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    color: white;
+    margin: 30px 15px;
+    font-size: 24px;    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #C7C000;
+    color: black;
+    
+}
+
+.questionForm {
+    display: none;
+    position: relative;
+    top: 100px;
+}
+
+fieldset {
+    border: none;
+}
+
+.answerChoice {
+    display: flex;
+    color: white;
+    cursor: pointer;
+    margin-left: 3px;
+    text-align: left;
+}
+
+.questionForm button {
+    float: right;
+    position: relative;
+    top: 100px;
+}
+
+.smart-dog, .sad-dog {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    max-height: 200px;
+}
+
+input[type='radio'] {
+    margin: auto 5px auto 15px;
+}
+
+/* for tablet screens */
+@media only screen and (min-width: 550px) {
+    .header {
+        width: 50%;
+    }
+
+    .questionForm {
+        position: static;
+    }    
+    
+    .header li {
+        font-size: 1.2em;
+        margin: 20px;
+        position: static;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    body {
+        font-size: 1.2em;
+        font-weight: 1.2em;
+    }
+
+    button {
+        font-size: 1.2em;        
+    }
+
+    .questionForm button {
+        position: static;
+    }
+
+    .answerChoice {
+        font-size: 1.2em;
+    }
+
+    input[type='radio'] {
+        margin: 5px 10px;   
+        padding: 40px;    
+    }
+
+    .smart-dog, .sad-dog {
+        width: 20%;
+        height: 20%;
+    }
+}
+
+/* for larger/computer screens */
+@media only screen and (min-width: 800px) {
+    h1 {
+        position: static;
+    }
+
+    .header {
+        width: 50%;
+    }
+
+    .header li {
+        position: static;
+        display: inline-block;
+        font-size: 1.2em;
+    }
+
+    .questionForm button {
+        position: static;
+    }
+
+    .questionForm {
+        position: static;
+    }
+
+    h1, h2, p {
+        font-size: 1.2em;
+    }
+
+    body {
+        font-size: 1.2em;
+        font-weight: 1.2em;
+    }
+
+    .answerChoice {
+        font-size: 1.2em;
+        margin: 10px auto;
+    }
+
+    input[type='radio'] {
+        margin: 5px 10px;        
+    } 
+}
+
+
+
+
+
+

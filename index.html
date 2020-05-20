@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dog Quiz App"> 
+    <title>Dog Quiz App</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header role="banner" class="header">
+        <img src="Images/dog banner.jpg" alt="picture of dogs in a banner form" class="dog-banner">
+        <ul>
+            <li>Question: <span class="questionNumber">0</span>/5</li>
+            <li>Score: <span class="scoreNumber">0</span></li>
+        </ul>
+    </header>
+
+    <main role="main">
+        <div class="startQuiz">
+            <h1>How well do you know "man's bestfriend"?</h1>
+            <button type="button" id="startButton">Start Quiz</button>
+        </div>
+        <div class="questionForm"></div>
+    </main>    
+    <script src="STORE.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
