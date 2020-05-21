@@ -7,7 +7,7 @@
 /* base styling for the page */
  
 .header {
-    margin: 0 auto;
+    margin: 100px auto 0px;
     width: 70%;
     text-align: center;
 }
@@ -18,11 +18,10 @@
     text-align: center;
     font-size: 22px;
     position: relative;
-    top: 50px;    
+    top: 50px;
 }
 
 .dog-banner {
-    margin-top: 0;
     max-width: 75%;
 }
 
@@ -60,12 +59,12 @@ h1, p{
 }
 
 .correct {
-    color: yellow;
+    color: #00ff00;
     font-weight: bold;
 }
 
 .incorrect {
-    color: red;
+    color: yellow;
     font-weight: bold;
 }
 
@@ -97,7 +96,7 @@ fieldset {
     display: flex;
     color: white;
     cursor: pointer;
-    margin-left: 3px;
+    margin-left: 50px;
     text-align: left;
 }
 
@@ -173,6 +172,7 @@ input[type='radio'] {
     }
 
     .header {
+        margin-top: 50px;
         width: 50%;
     }
 
@@ -205,12 +205,8 @@ input[type='radio'] {
     }
 
     input[type='radio'] {
-        margin: 5px 10px;        
+        margin-left: 50px;       
     } 
 }
-
-
-
-
 
 
